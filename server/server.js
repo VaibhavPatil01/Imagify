@@ -8,8 +8,13 @@ import imageRouter from "./routes/imageRoutes.js";
 const PORT = process.env.PORT || 4000;
 const app = express();
 
+const corsOptions = {
+  origin: "https://imagify-frontend-five.vercel.app", // Replace with your frontend URL
+  optionsSuccessStatus: 200,
+};
+
 app.use(express.json());
-app.use(cors());
+app.use(cors(corsOptions));
 await connectDB();
 
 app.use("/api/user", userRouter);
