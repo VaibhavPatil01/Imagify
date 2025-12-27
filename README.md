@@ -4,7 +4,7 @@ Imagify is a Full Stack AI SaaS application built using **MongoDB, Express, Reac
 
 This project utilizes **Clipdrop API** to generate high-quality images based on text inputs.
 
-## Table of Contents 
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Features](#features)
