@@ -80,6 +80,6 @@ Here are some screenshots of the project in action:
 
 ## Contributing
 
-Contributions are welcome! 
+Contributions are welcome!
 
 Thank you for checking out Imagify! If you have any questions or would like the setup instructions to run the project locally, feel free to reach out to me directly.
